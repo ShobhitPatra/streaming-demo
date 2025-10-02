@@ -9,7 +9,6 @@ export async function GET() {
         controller.enqueue(encoder.encode(char));
         await delay(20);
       }
-
       controller.close();
     },
   });
